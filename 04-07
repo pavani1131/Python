@@ -1,0 +1,13 @@
+text="hello"
+print(text[0])
+print(text[4])
+name="Ajay"
+print(name[0]+name[3])
+s="python"
+print(s[0:2])
+print(s[5:1])
+print(s[2:-1:2])
+E="elephant"
+print(E[-3:])
+s1="science"
+print(s1[2:5])
