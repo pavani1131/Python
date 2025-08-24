@@ -1,0 +1,45 @@
+#string
+str1="abc"
+print(str1.upper())
+print(str1.lower())
+print(str1.swapcase())
+print(len(str1))
+print(str1.index('a'))
+print(str1.title())
+print(str1.capitalize())
+str="iam a python developer"
+print(str.title())
+str2=str.replace("python","java")
+print(str2)
+print(str1.find('b'))
+print(str2.startswith('iam'))
+print(str2.endswith('developer'))
+s="  hello   "
+print(s.strip())
+print(s.rstrip())
+print(s.lstrip())
+
+s1={1,2,3}
+s1.add(4)
+print(s1)
+s1.remove(2)
+print(s1)
+s1.discard(4)
+print(s1)
+s1.clear()
+print(s1)
+s1.add(2)
+print(s1)
+s3={1,2,3}
+s4={3,4,5}
+print(s3.union(s4))
+print(s3.intersection(s4))
+print(s4.difference(s3))
+print(s4.isdisjoint(s3))
+print(s3.symmetric_difference(s4))
+print(s4.issuperset(s3))
+a=num1,num2,num3=(list(map(int,input("Enter all numbers in csv format").split(','))))
+print(a)
+num1, num2, num3 = map(int, input("Enter 3 numbers in CSV format: ").split(','))
+b= (num1, num2, num3)
+print(b)
